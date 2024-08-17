@@ -211,6 +211,10 @@ header .logo {
   padding: 40px 60px;
 }
 
+.section-report_curruption .grid {
+  display: none;
+}
+
 .section-report_curruption .left {
   display: flex;
   flex-direction: column;
