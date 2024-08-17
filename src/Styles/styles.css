@@ -826,18 +826,13 @@ footer {
     padding: 7px 20px;
   }
 
-  .section-latest_news .container,
-  .section-court_decisions .container,
-  .section-photoGallery .container {
-    overflow: auto;
-  }
-
   .section-latest_news .news-boxes,
   .section-court_decisions .decision-boxes,
   .section-photoGallery .photoGallery_items {
     display: flex !important;
     flex-direction: row !important;
     gap: 10px !important;
+    overflow: auto;
   }
 
   .section-latest_news .news-box,
